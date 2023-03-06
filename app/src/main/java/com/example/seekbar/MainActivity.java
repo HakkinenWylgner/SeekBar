@@ -26,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 textResultado.setText("Progresso" + progress + "/" + seekBar.getMax());
             }
 
-            @Override // ao clicar em cima
+            @Override // Ao pressionar em cima
             public void onStartTrackingTouch(SeekBar seekBar) {
                 //textResultado.setText("onStart");
             }
 
-            @Override // quando solta
+            @Override // Ao soltar
             public void onStopTrackingTouch(SeekBar seekBar) {
                 //textResultado.setText("onStop");
             }
